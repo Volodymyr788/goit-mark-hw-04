@@ -158,7 +158,7 @@ ul {
  width: calc((100% - 72px) / 4);
 }
 .main-page-box {
-    background-color: #F4F4FD;
+    
     border: 1px solid #8e8f99;
     border-radius: 4px;
     background-color: var(--bg-team);
@@ -310,11 +310,15 @@ justify-content: center;
 width: 100%;
 height: 100%;
 border-radius: 50%;
-background-color: #4d5ae5;
+background-color: #404bbf;
 }
 .team-social-link:hover{
-background-color: #404bbf;;
+background-color: #404bbf;
 }
+.team-social-link:focus{
+background-color: #31d0aa;
+}
+
 .team-svg {
 fill: #f4f4fd
 }
@@ -490,7 +494,8 @@ align-items: baseline;
 
 }
 .footer-social-link {
-    
+transition:cubic-bezier(0.4, 0, 0.2, 1);
+background-color: 250ms;
 display: flex;
 align-items: center;
 justify-content: center;
