@@ -146,6 +146,7 @@ ul {
 
 .section {
  padding: 120px 0;
+ background-size: cover;
 }
 
 .main-page-description {
@@ -434,6 +435,9 @@ fill: #f4f4fd
 .page-footer .container{
     display: flex;
 }
+.footer-con-logo{
+    margin-right: 120px;
+}
 .footer-a {
  display: inline-block;
 }
@@ -461,11 +465,14 @@ fill: #f4f4fd
  font-size: 16px;
  color: #f4f4fd;
  width: 264px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
 
 }
 .fotter-social {
 display: block;
 margin-left: 80px;
+align-items: baseline;
 }
 .footer-social-title {
  color: #fff;
@@ -476,7 +483,7 @@ margin-left: 80px;
 .footer-social-list {
  display: flex;
  gap: 16px;
- background-color: #31d0aa;
+
 }
 .footer-social-link {
 display: flex;
@@ -493,6 +500,9 @@ height: 100%;
 width: 40px;
 height: 40px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+background-color: #31d0aa;
+border-radius: 50%;
+
 }
 
 .footer-social-link:hover{
